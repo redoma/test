@@ -1,5 +1,4 @@
-function test () {
-    return "This is the Test!!!";
-}
+const test = (arg) => (arg);
 
-test();
+const test2 = test("test");
+console.log(test2);
